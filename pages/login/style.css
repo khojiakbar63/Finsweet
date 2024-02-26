@@ -1,0 +1,76 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+body{
+   height: 100vh;
+   background-color: #6e80d2;
+}
+form{
+   border-radius: 10px;
+   padding: 50px;
+   margin: 200px auto;
+   width: 500px;
+   height: auto;
+   background-color: #fff;
+   box-shadow: 0 5px 15px rgb(104, 98, 98);
+}
+form .form__title{
+   font-size: 30px;
+   font-weight: 600;
+   margin-bottom: 40px;
+}
+form div{
+   margin-bottom: 20px;
+}
+form label{
+   margin-bottom: 5px;
+   display: block;
+   font-weight: 500;
+   font-size: 20px;
+   color: #736e6e;
+}
+form input[type=email], input[type=password]{
+   border-radius: 6px;
+   padding: 10px;
+   width: 100%;
+   border: 2px solid rgb(214, 199, 199);
+}
+form input[type=checkbox]{
+   display: inline-block;
+}
+form .remember{
+   display: inline-block;
+}
+form .login-btn{
+   padding: 10px;
+   width: 100%;
+   background-color: #dc255f;
+   border: 2px solid #dc255f;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 600;
+   letter-spacing: 2px;
+   margin-bottom: 10px;
+}
+form .forgot{
+   text-align: end;
+}
+span{
+   display: inline-block;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 26px;
+
+}
+form .socials{
+   display: flex;
+   color: #4f4fa2;
+   align-items: center;
+   gap: 20px;
+   margin: 20px 0;
+}

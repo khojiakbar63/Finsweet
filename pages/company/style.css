@@ -1,0 +1,381 @@
+
+/* Intro section start */
+
+#company #intro {
+    background-color: #fff;
+}
+#company #intro .wrapper{
+    display: flex;
+    margin-bottom: -250px;
+}
+#company #intro .wrapper .left{
+    display: flex;
+    flex-direction: column;
+}
+#company #intro .wrapper .left .cube{
+    width: 28px;
+}
+#company #intro .wrapper .left h6{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin: 24px 0 20px 0;
+}
+#company #intro .wrapper .left h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+    margin: 20px 0 24px 0;
+}
+#company #intro .wrapper .left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b1b2bc;
+    margin: 20px 0 64px 0;
+}
+#company #intro .wrapper .right .corner{
+    width: 48px;
+    height: 52px;
+}
+#company #intro .wrapper .right .thick-line{
+    width: 342px;
+    height: 222px;
+}
+#company #intro .wrapper .right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+/* Cards start */
+#company #cards .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    gap: 12px;
+}
+#company #cards .card-container .card {
+    width: 423px;
+    height: 446px;
+    z-index: 9999;
+}
+
+#company #cards .card-container .thick-line {
+    position: absolute;
+    top: -20px;
+    right: -16px;
+}
+/* Cards end */
+
+/* Intro section end */
+
+/* Story section start */
+#company #story {
+    padding: 96px;
+}
+
+#company #story .wrapper{
+    display: flex;
+    gap: 107px; 
+}
+#company #story .wrapper .left{
+    width: 50%;
+}
+
+#company #story h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    margin: 16px 0;
+}
+#company #story h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #232536;
+    margin: 16px 0 24px 0;
+
+}
+#company #story p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+#company #story .wrapper .right{
+    width: 50%;
+    height: 368px;
+    background-color: #fbdec7;
+    padding: 62px 0 0 110px;
+    display: flex;
+    column-gap: 62px;
+    row-gap: 30px;
+}
+#company #story .wrapper .right .double-wrapper{
+    margin-right: 62px;
+}
+
+#company #story .wrapper .right .double-wrapper .card-wrapper h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #232536;
+}
+#company #story .wrapper .right .double-wrapper .card-wrapper {
+    margin-bottom: 30px;
+}
+#company #story .wrapper .right .double-wrapper .card-wrapper p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+}
+#company #story .wrapper .right .card{
+    width: 138px;
+    height: 98px;
+    display: flex;
+}
+#company #story .wrapper .right .card h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #232536;
+}
+#company #story .wrapper .right .card p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+}
+
+/* Story section end */
+
+/* Story footer section start */
+#company #story-footer .wrapper{
+    background-color: #FAFAFC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 96px;
+}
+#company #story-footer .wrapper img{
+ color: #090934;
+}
+/* Story footer section end */
+
+/* Expertise section start */
+#company #expertise .wrapper{
+    display: flex;
+}
+#company #expertise .wrapper .left{
+    width: 50%;
+}
+#company #expertise .wrapper .left h5{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+#company #expertise .wrapper .left h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    margin: 16px 0 24px 0;
+}
+#company #expertise .wrapper .left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5D5F6D;
+}
+#company #expertise .wrapper .right{
+    width: 50%;
+}
+
+#company #expertise .wrapper .right .card-parents .first-card{
+    position: relative;
+}
+#company #expertise .wrapper .right .card-parents .first-card .viocube{ 
+    position: absolute;
+    top: -15px;
+    left: 0;
+}
+#company #expertise .wrapper .right .card-parents .last-card { 
+    position: relative;
+}
+#company #expertise .wrapper .right .card-parents .last-card .bottomline{ 
+    position: absolute;
+    bottom: -9px;
+    right: 0;
+    width: 559.5px;
+}
+#company #expertise .wrapper .right .card-parents .card{
+    background-color: #fff;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+#company #expertise .wrapper .right .card-parents .card .right{
+    background-color: #fff;
+    padding: 32px;
+    display: flex;
+}
+#company #expertise .wrapper .right .card-parents .card .right h4{
+    color: #000000;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+}
+#company #expertise .wrapper .right .card-parents .card .right p{
+    color: #5D5F6D;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+#company #expertise .wrapper .right .card-parents .card .left{
+    width: 10%;
+}
+#company #expertise .wrapper .right .card-parents .card .right{
+    width: 90%;
+    /* text-align: left; */
+}
+
+/* Expertise section end */
+
+/* Vision section start */
+#company #vision{
+    padding: 96px;
+}
+#company #vision .wrapper{
+    width: 55%;
+}
+#company #vision .wrapper h5{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#company #vision .wrapper h1{
+    color: #232536;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin: 16px 0 24px 0;
+}
+#company #vision .wrapper p{
+    color: #8f9098;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px 0 64px 0;
+}
+/* Vision section end */
+
+/* Team section start */
+#company #team .wrapper {
+    width: 55%;
+}
+#company #team .wrapper h5{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: 3px;
+}
+#company #team .wrapper h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+    margin: 16px 0 24px 0;
+}
+#company #team .wrapper p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    margin: 24px 0 64px 0;
+}
+#company #team .images{
+    display: flex;
+    flex-wrap: wrap;
+}
+#company #team .images img{
+    width: 315px;
+    height: 315px;
+    object-fit: contain;
+}
+
+/* hover team start */
+#company #team .images .portrait .info h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+#company #team .images .portrait .info p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+#company #team .images .portrait .socials img{
+    width: 16px;
+    height: 15px;
+    fill: red;
+}
+#company #team .images .portrait{
+    position: relative;
+    width: 315px;
+    height: 315px;
+
+}
+
+#company #team .images .info{
+    width: 315px;
+    height: 315px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 20px;
+}
+#company #team .images .portrait:hover .info{
+    width: 315px;
+    height: 315px;
+    background-color: #232536;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+/* hover team end */
+
+
+/* Team section end */
+
+/* Special section start */
+#company #special{
+    margin-top: -96px;
+}
+/* Special section end */

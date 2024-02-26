@@ -1,0 +1,258 @@
+/* Service section start*/
+#service #intro header .list-item .clone{
+    color:#FFD3AF !important;
+  }
+
+#service #intro {
+    background-color: #FFE6D2;
+    padding: 96px;
+}
+#service #intro .wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 251px;
+}
+#service #intro .wrapper .left small{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #232536;
+}
+
+#service #intro .wrapper .left h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+    margin: 12px 0 24px 0;
+}
+#service #intro .wrapper .left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #67697c;
+}
+#service #intro .wrapper .left button{
+    width: 260px;
+    height: 64px;
+    margin-top: 60px;
+    background-color:  #444CFC;
+    border: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+#service #intro .wrapper .left button .corner{
+    align-self: flex-start;
+}
+#service #intro .wrapper .left button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* padding: 20px; */
+}
+#service #intro .wrapper .left button .anchor-wrap {
+    display: flex;
+    gap:10px;
+}
+#service #intro .wrapper .right nav{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+#service #intro .wrapper .right ul {
+    list-style-type: none;
+    margin-top: 70px;
+}
+#service #intro .wrapper .right ul li a{
+    text-decoration: none;
+    margin: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #232536;
+}
+#service #intro .wrapper .right ul li {
+    text-decoration: none;
+    margin: 16px;
+}
+#service #intro .wrapper .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    justify-content: start;
+}
+#service #intro .wrapper .left {
+    width: 50%;
+}
+/* Service section end*/
+
+/* Technical section start */
+#service #technical-support .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    height: 635px;
+    position: relative;
+}
+#service #technical-support .wrapper .left {
+    width: 50%;
+}
+#service #technical-support .wrapper .left h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+#service #technical-support .wrapper .left h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+#service #technical-support .wrapper .left h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #232536;
+    margin: 16px 0 24px 0;
+}
+#service #technical-support .wrapper .left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b1b1b6;
+}
+#service #technical-support .wrapper .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* Technical section start */
+
+/* Development section start */
+#service #develpoment{
+    height: 635px;
+    background-color:#ECF8F9;
+}
+#service #development .wrapper{
+    display: flex !important;
+    align-items: center;
+    gap: 140px;
+}
+#service #development .wrapper .right h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+#service #development .wrapper .right h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #232536;
+    margin: 16px 0 24px 0;
+}
+#service #development .wrapper .right p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #96969d;
+}
+/* Development section end */
+
+/* Azure section start */
+#service #azure {
+    height: 635px;
+}
+#service #azure .wrapper{
+    display: flex;
+    gap: 140px;
+    align-items: center;
+}
+#service #azure .wrapper .left h4{
+    color: #232536;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+#service #azure .wrapper .left h1{
+    color: #232536;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 16px 0 24px 0;
+}
+#service #azure .wrapper .left p{
+    color: #232536;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #aaabb3;
+}
+/* Azure section end */
+
+/* Consulting section start */
+#service #consulting {
+    height: 635px;
+    background-color: #F9F9FF;
+}
+#service #consulting .wrapper{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+#service #consulting .wrapper h4{
+    color: #232536;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+#service #consulting .wrapper h1{
+    color: #232536;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 16px 0 24px 0;
+}
+#service #consulting .wrapper p{
+    color: #9f9fa6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Consulting section end */
+#service #information-tech{
+    height: 635px;
+}
+#service #information-tech .wrapper{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+#service #information-tech .wrapper .left h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #232536;
+}
+#service #information-tech .wrapper .left h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #232536;
+    margin: 16px 0 24px 0;
+}
+#service #information-tech .wrapper .left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #9d9ea3;
+}

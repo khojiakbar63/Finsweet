@@ -1,0 +1,187 @@
+/* Career header start */
+header .list .dropdown-btn{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+}
+header .list .dropdown{
+    position: relative;
+    display: inline-block;
+}
+header .list .dropdown:hover .dropdown-content{ 
+    display: block;
+    color: #fff;
+}
+header .list .dropdown-content{
+    display: none;
+    position: absolute;
+    left: -30px;
+    background-color: #232536;
+    transition: .3s;
+    z-index: 1;
+}
+header .list .dropdown-content .career-link{
+    display: block;
+    padding: 5px 30px;
+}
+
+.dropdown-btn {
+    opacity: 1;
+}
+/* Career header end */
+
+
+
+/* Intro start */
+#career  #intro{
+    padding: 96px;
+    background-color: #fff;
+}
+#career #intro .wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#career #intro .wrapper .corner{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#career #intro .wrapper h5{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #232536;
+}
+#career #intro .wrapper h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+    margin: 24px auto;
+}
+#career #intro .wrapper p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    margin: 24px 0 64px 0;
+}
+#career #intro .wrapper h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #232536;
+    margin: 80px 0 16px 0;
+}
+#career #intro .wrapper .point-down{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* Intro end */
+
+/* Apply start */
+#career #apply .wrapper{
+    padding: 78px;
+    background-color: #ECF8F9;
+}
+#career #apply .wrapper .cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+}
+#career #apply .wrapper .cards .card{
+    width: 344px;
+    height: 243px;
+    background-color: #fff;
+    padding: 48px;
+}
+#career #apply .wrapper .cards .card h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+}
+#career #apply .wrapper .cards .card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7c7e91;
+    margin: 10px 0 52px 0;
+}
+#career #apply .wrapper .cards .card button{
+    border: none;
+    background-color: #fff;
+}
+#career #apply .wrapper .cards .card button a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #5D5FEF;
+}
+#career #apply .wrapper .cards .card button a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #35a863;
+}
+#career #apply .wrapper .cards .card button img{
+    background-color: #fff;
+}
+/* Apply end */
+
+/* Culture start */
+#career #culture {
+    background: #FAFAFC;
+    padding: 96px;
+}
+#career #culture .wrapper caption{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+#career #culture .wrapper h3{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 16px 0 24px 0;
+    color:  #232536;
+}
+#career #culture .wrapper p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0 64px 0;
+    color: #a6a7ae;
+}
+#career #culture .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+#career #culture .cards .card{
+    background-color: #fff;
+    width: 410px;
+    height: 188px;
+    padding: 32px;
+}
+#career #culture .cards .card h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    margin: 8px 0;
+}
+#career #culture .cards .card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a0a0a7;
+}
+
+/* Culture end */

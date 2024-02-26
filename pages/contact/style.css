@@ -1,0 +1,167 @@
+/* Form start */
+#contact #form {
+    display: flex;
+    padding: 96px 0;
+}
+#contact #form .wrapper{
+    display: flex;
+    gap: 93px;
+}
+#contact #form .wrapper .right, .left{
+    display: flex;
+    flex-direction: column;
+}
+#contact #form .wrapper .left .cube{
+    width: 24px;
+    height: 24px;
+}
+#contact #form .wrapper .left .title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #000000;
+    margin: 24px 0;
+}
+#contact #form .wrapper .left h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+    margin: 24px 0;
+}
+
+#contact #form .wrapper .left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    margin: 24px 0 64px 0;
+}
+#contact #form .wrapper .left form label {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #b8b8bd;
+    margin-top: 24px;
+}
+#contact #form .wrapper .left form input {
+    border: none;
+    border-bottom: #d1d2d7 1px solid;
+    width: 405px;
+    padding: 0 0 8px 0;
+}
+
+#contact #form form input::placeholder{
+    color: #232536; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+}
+#contact #form form textarea{
+    border: none; 
+    border-bottom: 1px solid #232536; 
+    margin-bottom: 30px;
+    height: 124px;
+}
+#contact #form form textarea::placeholder{
+    color: #cacbd5; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+}
+#contact #form .send__btn {
+    width: 213px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 13px;
+    background-image: linear-gradient(#444CFC,
+    #444CFC);
+    border: none;
+}
+#contact #form .send__btn .btn__corner{
+    position: absolute;
+    top: 0;left: 0;
+}
+#contact #form .send__btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+#contact #form .right{
+    background-color: #666DFF;
+    width: 536px;
+    height: 668px;
+    padding: 83px 0 0 96px;
+    position: relative;
+}
+#contact #form .right small{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+#contact #form .right .small__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #e3d8d8;
+    padding-bottom: 8px;
+}
+#contact #form .right .bold__text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 12px;
+
+}
+#contact #form .right .bottom__line{
+    border-bottom: hwb(0 0% 100% / 0.07) 1px solid;
+    width: 268px;
+}
+#contact #form .right .socials {
+    margin-top: 54px;
+    width: 144px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact #form .right .top__icon{
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: -9999;
+    top: -23px;
+}
+#contact #form .right .left_icon{
+    position: absolute;
+    z-index: -9999;
+    bottom: 0;
+    left: -24px;
+}
+#contact #form .right .left_icon{
+    position: absolute;
+    z-index: -9999;
+    bottom: 0;
+    left: -24px;
+}
+#contact #form .map{
+    margin: 96px 0 0 0;
+}
+/* Form end */
+
+#contact #special .corner{
+    width: 37px;
+    height: 34px;
+}
+#contact #special .foot-container{
+    padding-top: 0;
+}
+
+

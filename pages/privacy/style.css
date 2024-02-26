@@ -1,0 +1,69 @@
+h4{
+   color: black;
+}
+#privacy #intro{
+   background-color: #fff;
+   margin-bottom: -600px;
+   /* padding-bottom: -200px; */
+}
+#privacy #intro .wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+}
+#privacy #intro .icons{
+   display: flex;
+   justify-content: space-between;
+}
+#privacy #intro .cube{
+   width: 24px;
+   height: 24px;
+}
+#privacy #intro .corner{
+   width: 48px;
+   height: 52px;
+}
+#privacy #intro .wrapper .privacy__title{
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 58px;
+   color: #232536;
+}
+#privacy #intro .wrapper .privacy__desc{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #232536;
+}
+#privacy #rulePage img{
+   position: absolute;
+   bottom: -24px;
+   left: 0;
+}
+#privacy #rulePage {
+   position: relative;
+   background-color: #ECF8F9;
+   width: 1280px;
+   height: 1280px;
+   margin: 72px auto 120px;
+   padding: 96px 221px;
+}
+#privacy #rulePage  h3{
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 54px;
+   color: #232536;
+}
+#privacy #rulePage  h4{
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color: #232536;
+}
+#privacy #rulePage p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #232536;
+   margin: 24px 0;
+}
